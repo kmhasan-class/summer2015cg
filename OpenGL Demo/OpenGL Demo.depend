@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1435812042 source:/home/kmhasan/Documents/OpenGL Demo/main.cpp
+	<GL/freeglut.h>
+	<iostream>
+
