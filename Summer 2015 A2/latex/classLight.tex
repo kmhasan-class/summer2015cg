@@ -1,0 +1,104 @@
+\hypertarget{classLight}{\section{Light Class Reference}
+\label{classLight}\index{Light@{Light}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classLight_aeb5df09a25a32f19fdffa761268ba24f}{\hyperlink{classLight_aeb5df09a25a32f19fdffa761268ba24f}{Light} ()}\label{classLight_aeb5df09a25a32f19fdffa761268ba24f}
+
+\begin{DoxyCompactList}\small\item\em Default constructor\-: sets the light to be on, enables lighting and enables depth testing. \end{DoxyCompactList}\item 
+\hyperlink{classLight_ac16c9370e7aadf9235d1595ef99193cf}{Light} (G\-Lenum l)
+\begin{DoxyCompactList}\small\item\em Overloaded constructor that works for a particular light number. \end{DoxyCompactList}\item 
+bool \hyperlink{classLight_a0d9e845ce87ee76224a2bf3ce419b3b0}{is\-On} ()
+\begin{DoxyCompactList}\small\item\em Function to check if this light is on or not. \end{DoxyCompactList}\item 
+void \hyperlink{classLight_a3b7fc0582048795fdd680879cd968c17}{set\-On} (bool mode)
+\begin{DoxyCompactList}\small\item\em Setter function to turn this light on or off. \end{DoxyCompactList}\item 
+void \hyperlink{classLight_a308afba16046a992631b719ef958bc64}{set\-Position} (float p\mbox{[}4\mbox{]})
+\begin{DoxyCompactList}\small\item\em Setter function to set the new position of the light. \end{DoxyCompactList}\item 
+void \hyperlink{classLight_a079892de32d6fbbbb3263856e86a9744}{render} ()
+\begin{DoxyCompactList}\small\item\em Renders this light in the scene as a cube. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classLight_ac16c9370e7aadf9235d1595ef99193cf}{\index{Light@{Light}!Light@{Light}}
+\index{Light@{Light}!Light@{Light}}
+\subsubsection[{Light}]{\setlength{\rightskip}{0pt plus 5cm}Light\-::\-Light (
+\begin{DoxyParamCaption}
+\item[{G\-Lenum}]{l}
+\end{DoxyParamCaption}
+)}}\label{classLight_ac16c9370e7aadf9235d1595ef99193cf}
+
+
+Overloaded constructor that works for a particular light number. 
+
+Calls the default constructor \hyperlink{classLight_aeb5df09a25a32f19fdffa761268ba24f}{Light()} and then sets up the different light parameters for the given light number. 
+\begin{DoxyParams}{Parameters}
+{\em l} & is the light number, valid values are G\-L\-\_\-\-L\-I\-G\-H\-T0, G\-L\-\_\-\-L\-I\-G\-H\-T1, ... G\-L\-\_\-\-L\-I\-G\-H\-T7 \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classLight_a0d9e845ce87ee76224a2bf3ce419b3b0}{\index{Light@{Light}!is\-On@{is\-On}}
+\index{is\-On@{is\-On}!Light@{Light}}
+\subsubsection[{is\-On}]{\setlength{\rightskip}{0pt plus 5cm}bool Light\-::is\-On (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classLight_a0d9e845ce87ee76224a2bf3ce419b3b0}
+
+
+Function to check if this light is on or not. 
+
+\begin{DoxyReturn}{Returns}
+true if the light is on, false otherwise. 
+\end{DoxyReturn}
+\hypertarget{classLight_a079892de32d6fbbbb3263856e86a9744}{\index{Light@{Light}!render@{render}}
+\index{render@{render}!Light@{Light}}
+\subsubsection[{render}]{\setlength{\rightskip}{0pt plus 5cm}void Light\-::render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classLight_a079892de32d6fbbbb3263856e86a9744}
+
+
+Renders this light in the scene as a cube. 
+
+If the light is turned on, the render will be a solid cube. Otherwise it will be a wire cube. The light will be drawn with material properties following the light's color. \hypertarget{classLight_a3b7fc0582048795fdd680879cd968c17}{\index{Light@{Light}!set\-On@{set\-On}}
+\index{set\-On@{set\-On}!Light@{Light}}
+\subsubsection[{set\-On}]{\setlength{\rightskip}{0pt plus 5cm}void Light\-::set\-On (
+\begin{DoxyParamCaption}
+\item[{bool}]{mode}
+\end{DoxyParamCaption}
+)}}\label{classLight_a3b7fc0582048795fdd680879cd968c17}
+
+
+Setter function to turn this light on or off. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mode} & value true indicates that this light should be turned on, false indicates that it will be turned off. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classLight_a308afba16046a992631b719ef958bc64}{\index{Light@{Light}!set\-Position@{set\-Position}}
+\index{set\-Position@{set\-Position}!Light@{Light}}
+\subsubsection[{set\-Position}]{\setlength{\rightskip}{0pt plus 5cm}void Light\-::set\-Position (
+\begin{DoxyParamCaption}
+\item[{float}]{p\mbox{[}4\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{classLight_a308afba16046a992631b719ef958bc64}
+
+
+Setter function to set the new position of the light. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & is the new position vector for this light. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{light_8h}{light.\-h}\item 
+light.\-cpp\end{DoxyCompactItemize}

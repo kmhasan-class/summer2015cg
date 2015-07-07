@@ -1,0 +1,26 @@
+\hypertarget{meshmodel_8h}{\section{meshmodel.\-h File Reference}
+\label{meshmodel_8h}\index{meshmodel.\-h@{meshmodel.\-h}}
+}
+
+
+Base class for all mesh models for which we will read data from files.  
+
+
+{\ttfamily \#include \char`\"{}model.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$G\-L/glut.\-h$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classMeshModel}{Mesh\-Model}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Base class for all mesh models for which we will read data from files. \begin{DoxyAuthor}{Author}
+Monirul Hasan \href{mailto:kmhasan@gmail.com}{\tt kmhasan@gmail.\-com} 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+March 2014
+\end{DoxyDate}
+Ideally, this class should never be instantiated. We'll be creating subclasses where the render() function will say how the model will be rendered, and read\-File() function will say how data for the model will be loaded. 

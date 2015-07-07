@@ -1,0 +1,32 @@
+\hypertarget{objmodel_8h}{\section{objmodel.\-h File Reference}
+\label{objmodel_8h}\index{objmodel.\-h@{objmodel.\-h}}
+}
+
+
+Class that handles models described in .obj files.  
+
+
+{\ttfamily \#include \char`\"{}meshmodel.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}vertex.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}face.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}normal.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}material.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}object.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$G\-L/glut.\-h$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classObjModel}{Obj\-Model}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class that handles models described in .obj files. \begin{DoxyAuthor}{Authors}
+Monirul Hasan \href{mailto:kmhasan@gmail.com}{\tt kmhasan@gmail.\-com}, A\-D\-D\-\_\-\-Y\-O\-U\-R\-\_\-\-O\-W\-N\-\_\-\-N\-A\-M\-E 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+March 2014
+\end{DoxyDate}
+This is the class you'd be playing with! You need to properly implement the read\-File() function so that model's mesh can be read from .obj file and the material properties can be read from the corresponding .mtl file. You will most likely end up creating classes to handle Objects (parts of the models), \hyperlink{classVertex}{Vertex}, \hyperlink{classFace}{Face}, \hyperlink{classNormal}{Normal}, \hyperlink{classMaterial}{Material} and perhaps some more. Store the mesh and material data in appropriate data structures in this class. Then implement the render() function so that the model can be rendered properly. 

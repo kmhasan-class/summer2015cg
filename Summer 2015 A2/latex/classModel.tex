@@ -1,0 +1,62 @@
+\hypertarget{classModel}{\section{Model Class Reference}
+\label{classModel}\index{Model@{Model}}
+}
+Inheritance diagram for Model\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classModel}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classModel_ae3b375de5f6df4faf74a95d64748e048}{\hyperlink{classModel_ae3b375de5f6df4faf74a95d64748e048}{Model} ()}\label{classModel_ae3b375de5f6df4faf74a95d64748e048}
+
+\begin{DoxyCompactList}\small\item\em Default constructor\-: only sets wireframe mode to false. \end{DoxyCompactList}\item 
+\hypertarget{classModel_ad6ebd2062a0b823db841a0b88baac4c0}{virtual \hyperlink{classModel_ad6ebd2062a0b823db841a0b88baac4c0}{$\sim$\-Model} ()}\label{classModel_ad6ebd2062a0b823db841a0b88baac4c0}
+
+\begin{DoxyCompactList}\small\item\em Unimplemented destructor. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classModel_a89ebd61864089abe5b0c5a1df6479970}{render} ()
+\begin{DoxyCompactList}\small\item\em Placeholder for the render function. \end{DoxyCompactList}\item 
+void \hyperlink{classModel_a9bbabfc8fba384132cac6a483bb31dd2}{set\-Wire\-Frame} (bool w)
+\begin{DoxyCompactList}\small\item\em Setter function for wireframe/solid mode. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classModel_a89ebd61864089abe5b0c5a1df6479970}{\index{Model@{Model}!render@{render}}
+\index{render@{render}!Model@{Model}}
+\subsubsection[{render}]{\setlength{\rightskip}{0pt plus 5cm}void Model\-::render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classModel_a89ebd61864089abe5b0c5a1df6479970}
+
+
+Placeholder for the render function. 
+
+Make sure you call this base (\hyperlink{classModel}{Model}) class' render function right at the start of your render function in the subclass. This one sets up the model so that the model can be viewed as both wireframe and solid. As we'll be placing the models on a turntable, one should ensure that the model is appropriately translated so that the lowest y-\/coordinate is set to zero. 
+
+Reimplemented in \hyperlink{classObjModel_a490d057319a30734a0d6f27739f84565}{Obj\-Model}, \hyperlink{classTurntable_aaccddb594abd2665cf36fe5e2f6609cc}{Turntable}, \hyperlink{classTeapot_aababf7bd2833ebd3c34564b45b902163}{Teapot}, and \hyperlink{classMeshModel_a794db0d087fc1810cb3510ef0050ad28}{Mesh\-Model}.
+
+\hypertarget{classModel_a9bbabfc8fba384132cac6a483bb31dd2}{\index{Model@{Model}!set\-Wire\-Frame@{set\-Wire\-Frame}}
+\index{set\-Wire\-Frame@{set\-Wire\-Frame}!Model@{Model}}
+\subsubsection[{set\-Wire\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}void Model\-::set\-Wire\-Frame (
+\begin{DoxyParamCaption}
+\item[{bool}]{w}
+\end{DoxyParamCaption}
+)}}\label{classModel_a9bbabfc8fba384132cac6a483bb31dd2}
+
+
+Setter function for wireframe/solid mode. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em w} & is a boolean value indicating whether the model should be rendered as wireframe (true) or solid (false). \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{model_8h}{model.\-h}\item 
+model.\-cpp\end{DoxyCompactItemize}

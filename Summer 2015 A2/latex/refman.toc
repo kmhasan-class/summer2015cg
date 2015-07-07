@@ -1,0 +1,62 @@
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Face Class Reference}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}Light Class Reference}{7}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Constructor \& Destructor Documentation}{7}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Light}{7}{subsubsection.4.2.1.1}
+\contentsline {subsection}{\numberline {4.2.2}Member Function Documentation}{8}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}is\discretionary {-}{}{}On}{8}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}render}{8}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}set\discretionary {-}{}{}On}{8}{subsubsection.4.2.2.3}
+\contentsline {subsubsection}{\numberline {4.2.2.4}set\discretionary {-}{}{}Position}{8}{subsubsection.4.2.2.4}
+\contentsline {section}{\numberline {4.3}Material Class Reference}{8}{section.4.3}
+\contentsline {section}{\numberline {4.4}Mesh\discretionary {-}{}{}Model Class Reference}{8}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Member Function Documentation}{9}{subsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.1.1}read\discretionary {-}{}{}File}{9}{subsubsection.4.4.1.1}
+\contentsline {section}{\numberline {4.5}Model Class Reference}{9}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Member Function Documentation}{9}{subsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.1.1}render}{9}{subsubsection.4.5.1.1}
+\contentsline {subsubsection}{\numberline {4.5.1.2}set\discretionary {-}{}{}Wire\discretionary {-}{}{}Frame}{9}{subsubsection.4.5.1.2}
+\contentsline {section}{\numberline {4.6}Normal Class Reference}{9}{section.4.6}
+\contentsline {section}{\numberline {4.7}Object Class Reference}{10}{section.4.7}
+\contentsline {section}{\numberline {4.8}Obj\discretionary {-}{}{}Model Class Reference}{10}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Member Function Documentation}{10}{subsection.4.8.1}
+\contentsline {subsubsection}{\numberline {4.8.1.1}read\discretionary {-}{}{}File}{10}{subsubsection.4.8.1.1}
+\contentsline {subsubsection}{\numberline {4.8.1.2}render}{11}{subsubsection.4.8.1.2}
+\contentsline {section}{\numberline {4.9}Teapot Class Reference}{11}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Constructor \& Destructor Documentation}{11}{subsection.4.9.1}
+\contentsline {subsubsection}{\numberline {4.9.1.1}Teapot}{11}{subsubsection.4.9.1.1}
+\contentsline {section}{\numberline {4.10}Turntable Class Reference}{11}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Constructor \& Destructor Documentation}{12}{subsection.4.10.1}
+\contentsline {subsubsection}{\numberline {4.10.1.1}Turntable}{12}{subsubsection.4.10.1.1}
+\contentsline {subsubsection}{\numberline {4.10.1.2}Turntable}{12}{subsubsection.4.10.1.2}
+\contentsline {subsection}{\numberline {4.10.2}Member Function Documentation}{12}{subsection.4.10.2}
+\contentsline {subsubsection}{\numberline {4.10.2.1}render}{12}{subsubsection.4.10.2.1}
+\contentsline {section}{\numberline {4.11}Vertex Class Reference}{12}{section.4.11}
+\contentsline {chapter}{\numberline {5}File Documentation}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}light.\discretionary {-}{}{}h File Reference}{13}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{13}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}main.\discretionary {-}{}{}cpp File Reference}{13}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{14}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Function Documentation}{15}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}draw\discretionary {-}{}{}Grid}{15}{subsubsection.5.2.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2.2}init}{15}{subsubsection.5.2.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.3}keyboard}{15}{subsubsection.5.2.2.3}
+\contentsline {subsubsection}{\numberline {5.2.2.4}main}{15}{subsubsection.5.2.2.4}
+\contentsline {subsubsection}{\numberline {5.2.2.5}reshape}{15}{subsubsection.5.2.2.5}
+\contentsline {subsubsection}{\numberline {5.2.2.6}spin\discretionary {-}{}{}Me}{15}{subsubsection.5.2.2.6}
+\contentsline {section}{\numberline {5.3}meshmodel.\discretionary {-}{}{}h File Reference}{15}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{15}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}model.\discretionary {-}{}{}h File Reference}{15}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{16}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}objmodel.\discretionary {-}{}{}h File Reference}{16}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{16}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.6}teapot.\discretionary {-}{}{}h File Reference}{16}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Detailed Description}{16}{subsection.5.6.1}
+\contentsline {section}{\numberline {5.7}turntable.\discretionary {-}{}{}h File Reference}{17}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Detailed Description}{17}{subsection.5.7.1}

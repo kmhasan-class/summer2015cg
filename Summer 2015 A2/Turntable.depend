@@ -1,0 +1,286 @@
+# depslib dependency file v1.0
+1395064840 source:/home/kmhasan/CB Projects/Turntable/main.cpp
+	<GL/glut.h>
+	<cmath>
+	<chrono>
+	<iostream>
+	<string>
+	"model.h"
+	"teapot.h"
+	"turntable.h"
+	"light.h"
+	"meshmodel.h"
+	"objmodel.h"
+
+1395052066 source:/home/kmhasan/CB Projects/Turntable/model.cpp
+	"model.h"
+
+1395063749 /home/kmhasan/CB Projects/Turntable/model.h
+	<GL/glut.h>
+	<string>
+
+1395055255 source:/home/kmhasan/CB Projects/Turntable/teapot.cpp
+	"teapot.h"
+	<GL/glut.h>
+
+1395063790 /home/kmhasan/CB Projects/Turntable/teapot.h
+	"model.h"
+
+1395055255 source:/home/kmhasan/CB Projects/Turntable/turntable.cpp
+	"turntable.h"
+	<GL/glut.h>
+
+1395063805 /home/kmhasan/CB Projects/Turntable/turntable.h
+	"model.h"
+
+1395053582 source:/home/kmhasan/CB Projects/Turntable/light.cpp
+	"light.h"
+	<cstring>
+
+1395063665 /home/kmhasan/CB Projects/Turntable/light.h
+	<GL/glut.h>
+
+1395064632 source:/home/kmhasan/CB Projects/Turntable/meshmodel.cpp
+	"meshmodel.h"
+	<GL/glut.h>
+
+1395064638 /home/kmhasan/CB Projects/Turntable/meshmodel.h
+	"model.h"
+	<GL/glut.h>
+	<string>
+
+1395064724 source:/home/kmhasan/CB Projects/Turntable/objmodel.cpp
+	"objmodel.h"
+	<GL/glut.h>
+	<string>
+	<iostream>
+
+1395064904 /home/kmhasan/CB Projects/Turntable/objmodel.h
+	"meshmodel.h"
+	<GL/glut.h>
+	<string>
+
+1395053582 source:/home/kmhasan/Desktop/Turntable/light.cpp
+	"light.h"
+	<cstring>
+
+1395063665 /home/kmhasan/Desktop/Turntable/light.h
+	<GL/glut.h>
+
+1395064632 source:/home/kmhasan/Desktop/Turntable/meshmodel.cpp
+	"meshmodel.h"
+	<GL/glut.h>
+
+1395064638 /home/kmhasan/Desktop/Turntable/meshmodel.h
+	"model.h"
+	<GL/glut.h>
+	<string>
+
+1395063749 /home/kmhasan/Desktop/Turntable/model.h
+	<GL/glut.h>
+	<string>
+
+1395052066 source:/home/kmhasan/Desktop/Turntable/model.cpp
+	"model.h"
+
+1406984789 source:/home/kmhasan/Desktop/Turntable/objmodel.cpp
+	"objmodel.h"
+	<GL/glut.h>
+	<string>
+	<iostream>
+	<cstring>
+	<fstream>
+	<sstream>
+
+1406983783 /home/kmhasan/Desktop/Turntable/objmodel.h
+	"meshmodel.h"
+	"vertex.h"
+	"face.h"
+	"normal.h"
+	"material.h"
+	"object.h"
+	<GL/glut.h>
+	<string>
+	<vector>
+
+1395055255 source:/home/kmhasan/Desktop/Turntable/teapot.cpp
+	"teapot.h"
+	<GL/glut.h>
+
+1395063790 /home/kmhasan/Desktop/Turntable/teapot.h
+	"model.h"
+
+1395055255 source:/home/kmhasan/Desktop/Turntable/turntable.cpp
+	"turntable.h"
+	<GL/glut.h>
+
+1395063805 /home/kmhasan/Desktop/Turntable/turntable.h
+	"model.h"
+
+1406986328 source:/home/kmhasan/Desktop/Turntable/main.cpp
+	<GL/glut.h>
+	<cmath>
+	<chrono>
+	<iostream>
+	<string>
+	<pthread.h>
+	"model.h"
+	"teapot.h"
+	"turntable.h"
+	"light.h"
+	"meshmodel.h"
+	"objmodel.h"
+
+1406966774 /home/kmhasan/Desktop/Turntable/vertex.h
+
+1406984756 /home/kmhasan/Desktop/Turntable/face.h
+	"material.h"
+	"vertex.h"
+	"normal.h"
+	<vector>
+
+1406984660 /home/kmhasan/Desktop/Turntable/normal.h
+
+1406982114 /home/kmhasan/Desktop/Turntable/material.h
+	<string>
+
+1406979110 /home/kmhasan/Desktop/Turntable/object.h
+	"objmodel.h"
+	<string>
+
+1406966908 source:/home/kmhasan/Desktop/Turntable/vertex.cpp
+	"vertex.h"
+
+1406986297 source:/home/kmhasan/Desktop/Turntable/face.cpp
+	"face.h"
+	"material.h"
+	<GL/glut.h>
+	<vector>
+	<cstdlib>
+	<iostream>
+
+1406980118 source:/home/kmhasan/Desktop/Turntable/object.cpp
+	"object.h"
+	<iostream>
+
+1406982128 source:/home/kmhasan/Desktop/Turntable/material.cpp
+	"material.h"
+	<GL/glut.h>
+
+1406984923 source:/home/kmhasan/Desktop/Turntable/normal.cpp
+	"normal.h"
+	<GL/glut.h>
+	<cmath>
+
+1406986296 source:/home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/face.cpp
+	"face.h"
+	"material.h"
+	<GL/glut.h>
+	<vector>
+	<cstdlib>
+	<iostream>
+
+1406984756 /home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/face.h
+	"material.h"
+	"vertex.h"
+	"normal.h"
+	<vector>
+
+1406982114 /home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/material.h
+	<string>
+
+1406966774 /home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/vertex.h
+
+1406984660 /home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/normal.h
+
+1416438443 source:/home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/light.cpp
+	"light.h"
+	<cstring>
+
+1395063664 /home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/light.h
+	<GL/glut.h>
+
+1406982128 source:/home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/material.cpp
+	"material.h"
+	<GL/glut.h>
+
+1395064632 source:/home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/meshmodel.cpp
+	"meshmodel.h"
+	<GL/glut.h>
+
+1395064638 /home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/meshmodel.h
+	"model.h"
+	<GL/glut.h>
+	<string>
+
+1395063748 /home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/model.h
+	<GL/glut.h>
+	<string>
+
+1395052066 source:/home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/model.cpp
+	"model.h"
+
+1406984922 source:/home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/normal.cpp
+	"normal.h"
+	<GL/glut.h>
+	<cmath>
+
+1406980118 source:/home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/object.cpp
+	"object.h"
+	<iostream>
+
+1406979110 /home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/object.h
+	"objmodel.h"
+	<string>
+
+1406983782 /home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/objmodel.h
+	"meshmodel.h"
+	"vertex.h"
+	"face.h"
+	"normal.h"
+	"material.h"
+	"object.h"
+	<GL/glut.h>
+	<string>
+	<vector>
+
+1416414164 source:/home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/objmodel.cpp
+	"objmodel.h"
+	<GL/glut.h>
+	<string>
+	<iostream>
+	<cstring>
+	<fstream>
+	<sstream>
+
+1395055254 source:/home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/teapot.cpp
+	"teapot.h"
+	<GL/glut.h>
+
+1395063790 /home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/teapot.h
+	"model.h"
+
+1395055254 source:/home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/turntable.cpp
+	"turntable.h"
+	<GL/glut.h>
+
+1395063804 /home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/turntable.h
+	"model.h"
+
+1406966908 source:/home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/vertex.cpp
+	"vertex.h"
+
+1416414177 source:/home/kmhasan/Documents/CB Projects/Fall 2014 OGL A2/main.cpp
+	<GL/glut.h>
+	<cmath>
+	<chrono>
+	<iostream>
+	<string>
+	<pthread.h>
+	"model.h"
+	"teapot.h"
+	"turntable.h"
+	"light.h"
+	"meshmodel.h"
+	"objmodel.h"
+

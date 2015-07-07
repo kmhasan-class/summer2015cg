@@ -1,0 +1,35 @@
+# Doxyfile 1.2.3
+
+# This file describes the settings to be used by doxygen for a project
+#
+# All text after a hash (#) is considered a comment and will be ignored
+# The format is:
+#       TAG = value [value, ...]
+# For lists items can also be appended using:
+#       TAG += value [value, ...]
+# Values that contain spaces should be placed between quotes (" ")
+
+#---------------------------------------------------------------------------
+# General configuration options
+#---------------------------------------------------------------------------
+
+# The PROJECT_NAME tag is a single word (or a sequence of words surrounded
+# by quotes) that should identify the project.
+
+PROJECT_NAME           = "Spring 2014 CSE4013/CSE413 Assignment 3"
+EXTRACT_PRIVATE        = YES
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+FILE_PATTERNS          =  *.h *.cxx
+RECURSIVE              = YES
+# The HTML_HEADER tag can be used to specify a personal HTML header for
+# each generated HTML page. If it is left blank doxygen will generate a
+# standard header.
+HTML_HEADER            =
+
+# The HTML_FOOTER tag can be used to specify a personal HTML footer for
+# each generated HTML page. If it is left blank doxygen will generate a
+# standard footer.
+HTML_FOOTER            =
+GENERATE_LATEX         = YES
+USE_PDFLATEX           = YES

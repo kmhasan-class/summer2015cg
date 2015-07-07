@@ -1,0 +1,217 @@
+\hypertarget{main_8cpp}{\section{main.\-cpp File Reference}
+\label{main_8cpp}\index{main.\-cpp@{main.\-cpp}}
+}
+
+
+Summer 2015 Assignment \#2.  
+
+
+{\ttfamily \#include $<$G\-L/glut.\-h$>$}\\*
+{\ttfamily \#include $<$cmath$>$}\\*
+{\ttfamily \#include $<$chrono$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$pthread.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}model.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}teapot.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}turntable.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}light.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}meshmodel.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}objmodel.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{main_8cpp_ab5faa224cc65d6fbce2935d0ed45f600}{draw\-Grid} ()
+\begin{DoxyCompactList}\small\item\em Draws a 2\-D grid on zx-\/plane. \end{DoxyCompactList}\item 
+void \hyperlink{main_8cpp_ab3131ecac9dbbafaf695e4c14588cbe6}{spin\-Me} ()
+\begin{DoxyCompactList}\small\item\em Spins the \hyperlink{classTurntable}{Turntable} along with the \hyperlink{classModel}{Model} on top of it about the y-\/axis. \end{DoxyCompactList}\item 
+void \hyperlink{main_8cpp_a02fd73d861ef2e4aabb38c0c9ff82947}{init} ()
+\begin{DoxyCompactList}\small\item\em Initialization function to instantiate objects and to do related tasks. \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_a1e5b20fed15743656bb6d2e6a6ea6269}{void \hyperlink{main_8cpp_a1e5b20fed15743656bb6d2e6a6ea6269}{display} ()}\label{main_8cpp_a1e5b20fed15743656bb6d2e6a6ea6269}
+
+\begin{DoxyCompactList}\small\item\em The \hyperlink{main_8cpp_a1e5b20fed15743656bb6d2e6a6ea6269}{display()} callback function. \end{DoxyCompactList}\item 
+void \hyperlink{main_8cpp_a6819355374dd277347abd7c4235f0cd7}{reshape} (int width, int height)
+\begin{DoxyCompactList}\small\item\em The \hyperlink{main_8cpp_a6819355374dd277347abd7c4235f0cd7}{reshape()} callback function. \end{DoxyCompactList}\item 
+void \hyperlink{main_8cpp_a11bf38c6c77e542db015911b24bedc30}{keyboard} (unsigned char ch, int x, int y)
+\begin{DoxyCompactList}\small\item\em The \hyperlink{main_8cpp_a11bf38c6c77e542db015911b24bedc30}{keyboard()} callback function. \end{DoxyCompactList}\item 
+int \hyperlink{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em The main function to start it all! \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{main_8cpp_a1b4ff01fffb1ae04ef35d0c777ff86ea}{chrono\-::time\-\_\-point\\*
+$<$ chrono\-::system\-\_\-clock $>$ \hyperlink{main_8cpp_a1b4ff01fffb1ae04ef35d0c777ff86ea}{last}}\label{main_8cpp_a1b4ff01fffb1ae04ef35d0c777ff86ea}
+
+\begin{DoxyCompactList}\small\item\em C++11 extension chrono classes to track time spent in between frames -- last time\-\_\-point. \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_ab534d9990d3a1fca6ba8d20301781429}{chrono\-::time\-\_\-point\\*
+$<$ chrono\-::system\-\_\-clock $>$ \hyperlink{main_8cpp_ab534d9990d3a1fca6ba8d20301781429}{current}}\label{main_8cpp_ab534d9990d3a1fca6ba8d20301781429}
+
+\begin{DoxyCompactList}\small\item\em C++11 extension chrono classes to track time spent in between frames -- current time\-\_\-point. \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_ad06bc4182f3264c41aa3d010eb4b03ee}{const double \hyperlink{main_8cpp_ad06bc4182f3264c41aa3d010eb4b03ee}{turntable\-Height} = 0.\-5}\label{main_8cpp_ad06bc4182f3264c41aa3d010eb4b03ee}
+
+\begin{DoxyCompactList}\small\item\em base height of the \hyperlink{classTurntable}{Turntable} -- used to translate the model so that it sits on zx-\/plane \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_a55c5348c81be8a6efb487d0f8d6374c4}{const double \hyperlink{main_8cpp_a55c5348c81be8a6efb487d0f8d6374c4}{turntable\-Radius} = 7.\-0}\label{main_8cpp_a55c5348c81be8a6efb487d0f8d6374c4}
+
+\begin{DoxyCompactList}\small\item\em base radius of the \hyperlink{classTurntable}{Turntable} \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_a87accd1af8e0aff4b818d891374f7cec}{double \hyperlink{main_8cpp_a87accd1af8e0aff4b818d891374f7cec}{t} = 0}\label{main_8cpp_a87accd1af8e0aff4b818d891374f7cec}
+
+\begin{DoxyCompactList}\small\item\em time t in seconds \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_a62ab25ca0dac52cd5b575b88acbf69be}{float \hyperlink{main_8cpp_a62ab25ca0dac52cd5b575b88acbf69be}{spin} = 0.\-0}\label{main_8cpp_a62ab25ca0dac52cd5b575b88acbf69be}
+
+\begin{DoxyCompactList}\small\item\em the spin angle to control the rotation of turntable about the y-\/axis \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_a11926af9280d70fd96e47b07c90cf0ed}{double \hyperlink{main_8cpp_a11926af9280d70fd96e47b07c90cf0ed}{aspect} = 1.\-0}\label{main_8cpp_a11926af9280d70fd96e47b07c90cf0ed}
+
+\begin{DoxyCompactList}\small\item\em aspect ratio (width\-:height) of the window \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_a66076fd4c94f1ef66bb0256b653cf37f}{bool \hyperlink{main_8cpp_a66076fd4c94f1ef66bb0256b653cf37f}{pause} = false}\label{main_8cpp_a66076fd4c94f1ef66bb0256b653cf37f}
+
+\begin{DoxyCompactList}\small\item\em flag to toggle turntable rotation on or off \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_a08a3667327ce020588b5451aa2c2fb8e}{char \hyperlink{main_8cpp_a08a3667327ce020588b5451aa2c2fb8e}{axis\-Selection} = '\textbackslash{}0'}\label{main_8cpp_a08a3667327ce020588b5451aa2c2fb8e}
+
+\begin{DoxyCompactList}\small\item\em marks which axis is selected for camera movement \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_aa53f6b8a238b0ee4ffbfda54d8c713a3}{char \hyperlink{main_8cpp_aa53f6b8a238b0ee4ffbfda54d8c713a3}{light\-Selection} = '\textbackslash{}0'}\label{main_8cpp_aa53f6b8a238b0ee4ffbfda54d8c713a3}
+
+\begin{DoxyCompactList}\small\item\em marks which light is selected to be turned on or off \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_a9fe883a18727d129289b149e5f0305eb}{double \hyperlink{main_8cpp_a9fe883a18727d129289b149e5f0305eb}{cam} \mbox{[}3\mbox{]} = \{18, 6, 18\}}\label{main_8cpp_a9fe883a18727d129289b149e5f0305eb}
+
+\begin{DoxyCompactList}\small\item\em initial location of the camera \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_a8a386eee5b2436261bfa1fc0f4bcfa6e}{\hyperlink{classModel}{Model} $\ast$ \hyperlink{main_8cpp_a8a386eee5b2436261bfa1fc0f4bcfa6e}{turntable}}\label{main_8cpp_a8a386eee5b2436261bfa1fc0f4bcfa6e}
+
+\begin{DoxyCompactList}\small\item\em pointer to the \hyperlink{classTurntable}{Turntable} \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_a7b56c3ca57dde73bdbc8dbe9772bca19}{\hyperlink{classModel}{Model} $\ast$ \hyperlink{main_8cpp_a7b56c3ca57dde73bdbc8dbe9772bca19}{model}}\label{main_8cpp_a7b56c3ca57dde73bdbc8dbe9772bca19}
+
+\begin{DoxyCompactList}\small\item\em pointer to the \hyperlink{classModel}{Model} to be placed on the \hyperlink{classTurntable}{Turntable} \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_a5743fe18cdbdb6f65e0aa1635b52f8db}{\hyperlink{classLight}{Light} $\ast$ \hyperlink{main_8cpp_a5743fe18cdbdb6f65e0aa1635b52f8db}{light} \mbox{[}3\mbox{]}}\label{main_8cpp_a5743fe18cdbdb6f65e0aa1635b52f8db}
+
+\begin{DoxyCompactList}\small\item\em pointers to the \hyperlink{classLight}{Light} (s) in the scene \end{DoxyCompactList}\item 
+\hypertarget{main_8cpp_a746d3380ab43f61760f426f4d572331f}{\hyperlink{classModel}{Model} $\ast$ {\bfseries another\-Model}}\label{main_8cpp_a746d3380ab43f61760f426f4d572331f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Summer 2015 Assignment \#2. \begin{DoxyAuthor}{Author}
+Monirul Hasan \href{mailto:kmhasan@gmail.com}{\tt kmhasan@gmail.\-com} 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+July 7, 2015
+\end{DoxyDate}
+Submission deadline\-: 11\-:59 P\-M Friday July 24, 2014
+
+Email subject line\-: C\-S\-E4013\-Spring2014\-A3
+
+Task\-: Load a car model (preferably the one you submitted for the previous assignment) and drive it. As it is, the model loads up just fine, but the faces render flat shaded. You need to export the obj with the vertex normals written out in the .obj file. You also need to modify the file reading code so that it can handle vertex normal information. Figure out how you can set normals in Open\-G\-L and how to get Open\-G\-L to show the model smooth shaded. As for driving the car, at the very least you need to have the wheels rotate and the car move forward.
+
+\begin{DoxyWarning}{Warning}
+Any sign of copying will result in a zero score for everyone involved. Depending on the severity of the offense, I may issue further penalty. 
+\end{DoxyWarning}
+
+
+\subsection{Function Documentation}
+\hypertarget{main_8cpp_ab5faa224cc65d6fbce2935d0ed45f600}{\index{main.\-cpp@{main.\-cpp}!draw\-Grid@{draw\-Grid}}
+\index{draw\-Grid@{draw\-Grid}!main.cpp@{main.\-cpp}}
+\subsubsection[{draw\-Grid}]{\setlength{\rightskip}{0pt plus 5cm}void draw\-Grid (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_ab5faa224cc65d6fbce2935d0ed45f600}
+
+
+Draws a 2\-D grid on zx-\/plane. 
+
+Dimension of the grid drawn is 20 x 20. \hypertarget{main_8cpp_a02fd73d861ef2e4aabb38c0c9ff82947}{\index{main.\-cpp@{main.\-cpp}!init@{init}}
+\index{init@{init}!main.cpp@{main.\-cpp}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_a02fd73d861ef2e4aabb38c0c9ff82947}
+
+
+Initialization function to instantiate objects and to do related tasks. 
+
+Instantiates a \hyperlink{classTurntable}{Turntable}, a \hyperlink{classTeapot}{Teapot} for a model, two lights and sets backface culling on. \hypertarget{main_8cpp_a11bf38c6c77e542db015911b24bedc30}{\index{main.\-cpp@{main.\-cpp}!keyboard@{keyboard}}
+\index{keyboard@{keyboard}!main.cpp@{main.\-cpp}}
+\subsubsection[{keyboard}]{\setlength{\rightskip}{0pt plus 5cm}void keyboard (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{ch, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_a11bf38c6c77e542db015911b24bedc30}
+
+
+The \hyperlink{main_8cpp_a11bf38c6c77e542db015911b24bedc30}{keyboard()} callback function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ch} & is the character that's pressed. \\
+\hline
+{\em x} & is the x-\/coordinate of the mouse when key is pressed \\
+\hline
+{\em y} & is the y-\/coordinate of the mouse when key is pressed\\
+\hline
+\end{DoxyParams}
+E\-S\-C (character code 27) to Exit
+
+'P' for pause/animate toggle
+
+'X', 'Y' or 'Z' to select the axis on which the camera needs to be moved
+
+'+' or '-\/' to move in the positive or negative direction on the axis selected
+
+'0', '1' or '2' to select the light to turn on or off
+
+'L' to toggle the selected light on or off
+
+'F' to go full screen \hypertarget{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{\index{main.\-cpp@{main.\-cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.\-cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}
+
+
+The main function to start it all! 
+
+Initializes glut and registers the callback functions.
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & the number of parameters passed from command line \\
+\hline
+{\em argv} & the command line parameters in one array \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_a6819355374dd277347abd7c4235f0cd7}{\index{main.\-cpp@{main.\-cpp}!reshape@{reshape}}
+\index{reshape@{reshape}!main.cpp@{main.\-cpp}}
+\subsubsection[{reshape}]{\setlength{\rightskip}{0pt plus 5cm}void reshape (
+\begin{DoxyParamCaption}
+\item[{int}]{width, }
+\item[{int}]{height}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_a6819355374dd277347abd7c4235f0cd7}
+
+
+The \hyperlink{main_8cpp_a6819355374dd277347abd7c4235f0cd7}{reshape()} callback function. 
+
+This function is called for reshaphing whenever the window size is changed. 
+\begin{DoxyParams}{Parameters}
+{\em width} & is the new width of the window \\
+\hline
+{\em height} & is the new height of the window \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8cpp_ab3131ecac9dbbafaf695e4c14588cbe6}{\index{main.\-cpp@{main.\-cpp}!spin\-Me@{spin\-Me}}
+\index{spin\-Me@{spin\-Me}!main.cpp@{main.\-cpp}}
+\subsubsection[{spin\-Me}]{\setlength{\rightskip}{0pt plus 5cm}void spin\-Me (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_ab3131ecac9dbbafaf695e4c14588cbe6}
+
+
+Spins the \hyperlink{classTurntable}{Turntable} along with the \hyperlink{classModel}{Model} on top of it about the y-\/axis. 
+
+This function does a full spin of 360 degrees within a set amount of time (declared as constant inside the function). After the full spin it waits half the time it took and displays the model in wireframe mode. Then it repeats the process. The chrono classes from C++11 are used to compute time elapsed between two \hyperlink{main_8cpp_ab3131ecac9dbbafaf695e4c14588cbe6}{spin\-Me()} calls to determine the rotation speed. 

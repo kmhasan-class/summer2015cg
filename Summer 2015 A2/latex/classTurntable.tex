@@ -1,0 +1,75 @@
+\hypertarget{classTurntable}{\section{Turntable Class Reference}
+\label{classTurntable}\index{Turntable@{Turntable}}
+}
+Inheritance diagram for Turntable\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classTurntable}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classTurntable_a630b239cf4edd80dd1f2b9e006afb824}{Turntable} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for the \hyperlink{classTurntable}{Turntable} class. \end{DoxyCompactList}\item 
+\hyperlink{classTurntable_a3a73c1ca03efd0d05f2b3903923bdb89}{Turntable} (double r, double h)
+\begin{DoxyCompactList}\small\item\em Overloaded constructor that takes radius and height as parameters. \end{DoxyCompactList}\item 
+void \hyperlink{classTurntable_aaccddb594abd2665cf36fe5e2f6609cc}{render} ()
+\begin{DoxyCompactList}\small\item\em Renders the turntable flat out on the zx-\/plane. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classTurntable_a630b239cf4edd80dd1f2b9e006afb824}{\index{Turntable@{Turntable}!Turntable@{Turntable}}
+\index{Turntable@{Turntable}!Turntable@{Turntable}}
+\subsubsection[{Turntable}]{\setlength{\rightskip}{0pt plus 5cm}Turntable\-::\-Turntable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classTurntable_a630b239cf4edd80dd1f2b9e006afb824}
+
+
+Default constructor for the \hyperlink{classTurntable}{Turntable} class. 
+
+Simply calls the \hyperlink{classModel_ae3b375de5f6df4faf74a95d64748e048}{Model()} constructor of the base class \hyperlink{classModel}{Model}. \hypertarget{classTurntable_a3a73c1ca03efd0d05f2b3903923bdb89}{\index{Turntable@{Turntable}!Turntable@{Turntable}}
+\index{Turntable@{Turntable}!Turntable@{Turntable}}
+\subsubsection[{Turntable}]{\setlength{\rightskip}{0pt plus 5cm}Turntable\-::\-Turntable (
+\begin{DoxyParamCaption}
+\item[{double}]{r, }
+\item[{double}]{h}
+\end{DoxyParamCaption}
+)}}\label{classTurntable_a3a73c1ca03efd0d05f2b3903923bdb89}
+
+
+Overloaded constructor that takes radius and height as parameters. 
+
+Calls the default constructor \hyperlink{classTurntable_a630b239cf4edd80dd1f2b9e006afb824}{Turntable()} first and then sets up radius and height as passed. 
+\begin{DoxyParams}{Parameters}
+{\em r} & is the radius \\
+\hline
+{\em h} & is the height \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classTurntable_aaccddb594abd2665cf36fe5e2f6609cc}{\index{Turntable@{Turntable}!render@{render}}
+\index{render@{render}!Turntable@{Turntable}}
+\subsubsection[{render}]{\setlength{\rightskip}{0pt plus 5cm}void Turntable\-::render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classTurntable_aaccddb594abd2665cf36fe5e2f6609cc}
+
+
+Renders the turntable flat out on the zx-\/plane. 
+
+The turntable is created with 3 tapered cylinders using glu\-Cylinder() function calls. The topmost cylinder has top radius set to zero giving an appearance of closed off lid to the base cylinder. 
+
+Reimplemented from \hyperlink{classModel_a89ebd61864089abe5b0c5a1df6479970}{Model}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{turntable_8h}{turntable.\-h}\item 
+turntable.\-cpp\end{DoxyCompactItemize}

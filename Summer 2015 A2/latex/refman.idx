@@ -1,0 +1,58 @@
+\indexentry{Face@{Face}|hyperpage}{7}
+\indexentry{Light@{Light}|hyperpage}{7}
+\indexentry{Light@{Light}!Light@{Light}|hyperpage}{7}
+\indexentry{Light@{Light}!Light@{Light}|hyperpage}{7}
+\indexentry{Light@{Light}!is\discretionary {-}{}{}On@{is\discretionary {-}{}{}On}|hyperpage}{8}
+\indexentry{is\discretionary {-}{}{}On@{is\discretionary {-}{}{}On}!Light@{Light}|hyperpage}{8}
+\indexentry{Light@{Light}!render@{render}|hyperpage}{8}
+\indexentry{render@{render}!Light@{Light}|hyperpage}{8}
+\indexentry{Light@{Light}!set\discretionary {-}{}{}On@{set\discretionary {-}{}{}On}|hyperpage}{8}
+\indexentry{set\discretionary {-}{}{}On@{set\discretionary {-}{}{}On}!Light@{Light}|hyperpage}{8}
+\indexentry{Light@{Light}!set\discretionary {-}{}{}Position@{set\discretionary {-}{}{}Position}|hyperpage}{8}
+\indexentry{set\discretionary {-}{}{}Position@{set\discretionary {-}{}{}Position}!Light@{Light}|hyperpage}{8}
+\indexentry{Material@{Material}|hyperpage}{8}
+\indexentry{Mesh\discretionary {-}{}{}Model@{Mesh\discretionary {-}{}{}Model}|hyperpage}{8}
+\indexentry{Mesh\discretionary {-}{}{}Model@{Mesh\discretionary {-}{}{}Model}!read\discretionary {-}{}{}File@{read\discretionary {-}{}{}File}|hyperpage}{9}
+\indexentry{read\discretionary {-}{}{}File@{read\discretionary {-}{}{}File}!MeshModel@{Mesh\discretionary {-}{}{}Model}|hyperpage}{9}
+\indexentry{Model@{Model}|hyperpage}{9}
+\indexentry{Model@{Model}!render@{render}|hyperpage}{9}
+\indexentry{render@{render}!Model@{Model}|hyperpage}{9}
+\indexentry{Model@{Model}!set\discretionary {-}{}{}Wire\discretionary {-}{}{}Frame@{set\discretionary {-}{}{}Wire\discretionary {-}{}{}Frame}|hyperpage}{9}
+\indexentry{set\discretionary {-}{}{}Wire\discretionary {-}{}{}Frame@{set\discretionary {-}{}{}Wire\discretionary {-}{}{}Frame}!Model@{Model}|hyperpage}{9}
+\indexentry{Normal@{Normal}|hyperpage}{9}
+\indexentry{Object@{Object}|hyperpage}{10}
+\indexentry{Obj\discretionary {-}{}{}Model@{Obj\discretionary {-}{}{}Model}|hyperpage}{10}
+\indexentry{Obj\discretionary {-}{}{}Model@{Obj\discretionary {-}{}{}Model}!read\discretionary {-}{}{}File@{read\discretionary {-}{}{}File}|hyperpage}{10}
+\indexentry{read\discretionary {-}{}{}File@{read\discretionary {-}{}{}File}!ObjModel@{Obj\discretionary {-}{}{}Model}|hyperpage}{10}
+\indexentry{Obj\discretionary {-}{}{}Model@{Obj\discretionary {-}{}{}Model}!render@{render}|hyperpage}{11}
+\indexentry{render@{render}!ObjModel@{Obj\discretionary {-}{}{}Model}|hyperpage}{11}
+\indexentry{Teapot@{Teapot}|hyperpage}{11}
+\indexentry{Teapot@{Teapot}!Teapot@{Teapot}|hyperpage}{11}
+\indexentry{Teapot@{Teapot}!Teapot@{Teapot}|hyperpage}{11}
+\indexentry{Turntable@{Turntable}|hyperpage}{11}
+\indexentry{Turntable@{Turntable}!Turntable@{Turntable}|hyperpage}{12}
+\indexentry{Turntable@{Turntable}!Turntable@{Turntable}|hyperpage}{12}
+\indexentry{Turntable@{Turntable}!Turntable@{Turntable}|hyperpage}{12}
+\indexentry{Turntable@{Turntable}!Turntable@{Turntable}|hyperpage}{12}
+\indexentry{Turntable@{Turntable}!render@{render}|hyperpage}{12}
+\indexentry{render@{render}!Turntable@{Turntable}|hyperpage}{12}
+\indexentry{Vertex@{Vertex}|hyperpage}{12}
+\indexentry{light.\discretionary {-}{}{}h@{light.\discretionary {-}{}{}h}|hyperpage}{13}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{13}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!draw\discretionary {-}{}{}Grid@{draw\discretionary {-}{}{}Grid}|hyperpage}{15}
+\indexentry{draw\discretionary {-}{}{}Grid@{draw\discretionary {-}{}{}Grid}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{15}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!init@{init}|hyperpage}{15}
+\indexentry{init@{init}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{15}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!keyboard@{keyboard}|hyperpage}{15}
+\indexentry{keyboard@{keyboard}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{15}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{15}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{15}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!reshape@{reshape}|hyperpage}{15}
+\indexentry{reshape@{reshape}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{15}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!spin\discretionary {-}{}{}Me@{spin\discretionary {-}{}{}Me}|hyperpage}{15}
+\indexentry{spin\discretionary {-}{}{}Me@{spin\discretionary {-}{}{}Me}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{15}
+\indexentry{meshmodel.\discretionary {-}{}{}h@{meshmodel.\discretionary {-}{}{}h}|hyperpage}{15}
+\indexentry{model.\discretionary {-}{}{}h@{model.\discretionary {-}{}{}h}|hyperpage}{15}
+\indexentry{objmodel.\discretionary {-}{}{}h@{objmodel.\discretionary {-}{}{}h}|hyperpage}{16}
+\indexentry{teapot.\discretionary {-}{}{}h@{teapot.\discretionary {-}{}{}h}|hyperpage}{16}
+\indexentry{turntable.\discretionary {-}{}{}h@{turntable.\discretionary {-}{}{}h}|hyperpage}{17}

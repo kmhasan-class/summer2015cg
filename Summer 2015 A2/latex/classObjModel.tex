@@ -1,0 +1,77 @@
+\hypertarget{classObjModel}{\section{Obj\-Model Class Reference}
+\label{classObjModel}\index{Obj\-Model@{Obj\-Model}}
+}
+Inheritance diagram for Obj\-Model\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classObjModel}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classObjModel_af7c00f757992e626f2dd959f4c829125}{\hyperlink{classObjModel_af7c00f757992e626f2dd959f4c829125}{Obj\-Model} ()}\label{classObjModel_af7c00f757992e626f2dd959f4c829125}
+
+\begin{DoxyCompactList}\small\item\em Default constructor does nothing but calling the \hyperlink{classModel_ae3b375de5f6df4faf74a95d64748e048}{Model()} constructor. \end{DoxyCompactList}\item 
+\hypertarget{classObjModel_a78d50e0da345b8b2438bbc93ae01eab8}{virtual \hyperlink{classObjModel_a78d50e0da345b8b2438bbc93ae01eab8}{$\sim$\-Obj\-Model} ()}\label{classObjModel_a78d50e0da345b8b2438bbc93ae01eab8}
+
+\begin{DoxyCompactList}\small\item\em Unimplemented destructor. \end{DoxyCompactList}\item 
+void \hyperlink{classObjModel_a490d057319a30734a0d6f27739f84565}{render} ()
+\begin{DoxyCompactList}\small\item\em Renders the \hyperlink{classObjModel}{Obj\-Model}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classObjModel_a99296bb22424ec9732ce3197991459d9}{read\-File} (char $\ast$filename)
+\begin{DoxyCompactList}\small\item\em Reads \hyperlink{classObjModel}{Obj\-Model} mesh data from a .obj file and material data from .mtl file. \end{DoxyCompactList}\item 
+\hypertarget{classObjModel_ad5cf8b20897f7d745ef5cf5121e1e3e2}{bool \hyperlink{classObjModel_ad5cf8b20897f7d745ef5cf5121e1e3e2}{is\-Ready} ()}\label{classObjModel_ad5cf8b20897f7d745ef5cf5121e1e3e2}
+
+\begin{DoxyCompactList}\small\item\em Returns true if the model is ready to be rendered, false otherwise. \end{DoxyCompactList}\item 
+\hypertarget{classObjModel_a2cd661ed082445bbee4bca792042693c}{vector$<$ \hyperlink{classVertex}{Vertex} $>$ $\ast$ {\bfseries get\-Vertices} ()}\label{classObjModel_a2cd661ed082445bbee4bca792042693c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classObjModel_a99296bb22424ec9732ce3197991459d9}{\index{Obj\-Model@{Obj\-Model}!read\-File@{read\-File}}
+\index{read\-File@{read\-File}!ObjModel@{Obj\-Model}}
+\subsubsection[{read\-File}]{\setlength{\rightskip}{0pt plus 5cm}void Obj\-Model\-::read\-File (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classObjModel_a99296bb22424ec9732ce3197991459d9}
+
+
+Reads \hyperlink{classObjModel}{Obj\-Model} mesh data from a .obj file and material data from .mtl file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & is the base name (without extension) of the data files (for example\-: teapot, not teapot.\-obj).\\
+\hline
+\end{DoxyParams}
+You need to implement this function properly.
+
+\begin{DoxyWarning}{Warning}
+you need to uncomment a line in this function to let \hyperlink{main_8cpp}{main.\-cpp} know that we're ready to render. 
+\end{DoxyWarning}
+
+
+Reimplemented from \hyperlink{classMeshModel_a79b1081f6b6ff72bf8fc24dc89578977}{Mesh\-Model}.
+
+\hypertarget{classObjModel_a490d057319a30734a0d6f27739f84565}{\index{Obj\-Model@{Obj\-Model}!render@{render}}
+\index{render@{render}!ObjModel@{Obj\-Model}}
+\subsubsection[{render}]{\setlength{\rightskip}{0pt plus 5cm}void Obj\-Model\-::render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classObjModel_a490d057319a30734a0d6f27739f84565}
+
+
+Renders the \hyperlink{classObjModel}{Obj\-Model}. 
+
+You need to implement this function properly. Make sure you translate your model so that it stands on the zx-\/plane. The lowest y-\/coordinate needs to be at zero. 
+
+Reimplemented from \hyperlink{classMeshModel_a794db0d087fc1810cb3510ef0050ad28}{Mesh\-Model}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{objmodel_8h}{objmodel.\-h}\item 
+objmodel.\-cpp\end{DoxyCompactItemize}

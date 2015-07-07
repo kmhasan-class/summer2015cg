@@ -1,0 +1,113 @@
+# depslib dependency file v1.0
+1406986296 source:/home/kmhasan/Desktop/Summer 2015 A2/face.cpp
+	"face.h"
+	"material.h"
+	<GL/glut.h>
+	<vector>
+	<cstdlib>
+	<iostream>
+
+1406984756 /home/kmhasan/Desktop/Summer 2015 A2/face.h
+	"material.h"
+	"vertex.h"
+	"normal.h"
+	<vector>
+
+1406982114 /home/kmhasan/Desktop/Summer 2015 A2/material.h
+	<string>
+
+1406966774 /home/kmhasan/Desktop/Summer 2015 A2/vertex.h
+
+1406984660 /home/kmhasan/Desktop/Summer 2015 A2/normal.h
+
+1416438442 source:/home/kmhasan/Desktop/Summer 2015 A2/light.cpp
+	"light.h"
+	<cstring>
+
+1395063664 /home/kmhasan/Desktop/Summer 2015 A2/light.h
+	<GL/glut.h>
+
+1436286444 source:/home/kmhasan/Desktop/Summer 2015 A2/main.cpp
+	<GL/glut.h>
+	<cmath>
+	<chrono>
+	<iostream>
+	<string>
+	<pthread.h>
+	"model.h"
+	"teapot.h"
+	"turntable.h"
+	"light.h"
+	"meshmodel.h"
+	"objmodel.h"
+
+1395063748 /home/kmhasan/Desktop/Summer 2015 A2/model.h
+	<GL/glut.h>
+	<string>
+
+1395063790 /home/kmhasan/Desktop/Summer 2015 A2/teapot.h
+	"model.h"
+
+1395063804 /home/kmhasan/Desktop/Summer 2015 A2/turntable.h
+	"model.h"
+
+1395064638 /home/kmhasan/Desktop/Summer 2015 A2/meshmodel.h
+	"model.h"
+	<GL/glut.h>
+	<string>
+
+1406983782 /home/kmhasan/Desktop/Summer 2015 A2/objmodel.h
+	"meshmodel.h"
+	"vertex.h"
+	"face.h"
+	"normal.h"
+	"material.h"
+	"object.h"
+	<GL/glut.h>
+	<string>
+	<vector>
+
+1406979110 /home/kmhasan/Desktop/Summer 2015 A2/object.h
+	"objmodel.h"
+	<string>
+
+1406982128 source:/home/kmhasan/Desktop/Summer 2015 A2/material.cpp
+	"material.h"
+	<GL/glut.h>
+
+1395064632 source:/home/kmhasan/Desktop/Summer 2015 A2/meshmodel.cpp
+	"meshmodel.h"
+	<GL/glut.h>
+
+1416439948 source:/home/kmhasan/Desktop/Summer 2015 A2/model.cpp
+	"model.h"
+
+1406984922 source:/home/kmhasan/Desktop/Summer 2015 A2/normal.cpp
+	"normal.h"
+	<GL/glut.h>
+	<cmath>
+
+1406980118 source:/home/kmhasan/Desktop/Summer 2015 A2/object.cpp
+	"object.h"
+	<iostream>
+
+1416439950 source:/home/kmhasan/Desktop/Summer 2015 A2/objmodel.cpp
+	"objmodel.h"
+	<GL/glut.h>
+	<string>
+	<iostream>
+	<cstring>
+	<fstream>
+	<sstream>
+
+1395055254 source:/home/kmhasan/Desktop/Summer 2015 A2/teapot.cpp
+	"teapot.h"
+	<GL/glut.h>
+
+1395055254 source:/home/kmhasan/Desktop/Summer 2015 A2/turntable.cpp
+	"turntable.h"
+	<GL/glut.h>
+
+1406966908 source:/home/kmhasan/Desktop/Summer 2015 A2/vertex.cpp
+	"vertex.h"
+
