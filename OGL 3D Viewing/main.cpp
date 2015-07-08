@@ -24,11 +24,8 @@ void display() {
     gluLookAt(0, 0, 10, 0, 0, 0, 0, 1, 0);
     glPushMatrix();
         glColor3f(1.0, 1.0, 0.0);
-        //glRotatef(theta, 0, 1, 0);
-        //glutSolidTeapot(3.0);
-        glTranslatef(0, 2, 0);
-        glRotatef(90, 1, 0, 0);
-        glutWireCylinder(0.5, 4, 6, 4);
+        glRotatef(theta, 0, 1, 0);
+        glutSolidTeapot(3.0);
     glPopMatrix();
     glFlush();
     glutSwapBuffers();
